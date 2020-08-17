@@ -1,10 +1,9 @@
 # raspil-components
+
 Компоненты SPA https://raspil.web.app
 
-## RaspilViewOrders
-## RaspilOrder
-> Отдельной demo-версии нет, работают только в приложении.
-> Расположение компонентов: src/container/
+* Отдельной demo-версии компонентов нет, работают только в приложении.
+* Расположение компонентов: src/container/
 
 ## RaspilViewOrders
 - запрашивает заказы с сервера, с помощью Redux Thunk middleware
