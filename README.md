@@ -1,4 +1,4 @@
-# raspil
+# raspil-components
 Компоненты SPA https://raspil.web.app
 
 ## RaspilViewOrders
