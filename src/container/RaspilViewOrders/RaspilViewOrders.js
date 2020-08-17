@@ -37,14 +37,7 @@ export function RaspilViewOrders({ history, match }) {
     errorMessage,
   } = stateRedux;
 
-  console.log(
-    '%cRender RaspilViewOrders',
-    'background: green; color: black',
-    { loading },
-    { reduxOrdersArray },
-    { error },
-    { filter }
-  );
+  
 
   const options = useSelector((state) => state.helper);
   const dispatch = useDispatch();
@@ -54,10 +47,7 @@ export function RaspilViewOrders({ history, match }) {
   }
 
   useEffect(() => {
-    console.log(
-      '%cuseEffect RaspilViewOrders',
-      'background: #222; color: #ffff'
-    );
+   
     dispatch(asyncActions.getOrdersFromServer(path));
   }, [dispatch, path]);
 
