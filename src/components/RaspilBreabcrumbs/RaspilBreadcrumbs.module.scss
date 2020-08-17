@@ -1,0 +1,15 @@
+.breadcrumb:link,
+.breadcrumb:visited {
+  font-size: .9rem;
+  text-decoration: none;
+  text-transform: uppercase;
+ color: rgba(0, 0, 0, 0.54);
+}
+
+.breadcrumb:hover {
+  text-decoration: underline;
+}
+.Breadcrumbs {
+  padding:  1rem;
+}
+

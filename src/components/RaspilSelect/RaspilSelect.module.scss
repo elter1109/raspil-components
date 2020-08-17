@@ -1,0 +1,28 @@
+.avatar {
+    margin-right: 0.5rem;
+
+    &>img {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.text {
+    font-size: 0.9rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+
+}
+
+.textNot {
+    font-style: italic;
+    padding-left: 1rem;
+}
+
+.Select {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+}

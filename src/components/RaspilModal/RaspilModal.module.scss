@@ -1,0 +1,22 @@
+.Dialog {
+  width: 80vw;
+  height: 90vh;
+  color: rgb(110, 108, 108);
+}
+
+.title {
+  display: flex;
+  color: rgb(73, 73, 73);
+
+  &>p {
+    margin-right: 1rem;
+  }
+}
+
+.DialogContent {
+  padding: 0;
+}
+.dialogTitle {
+  padding: 0.5rem 1rem;
+}
+

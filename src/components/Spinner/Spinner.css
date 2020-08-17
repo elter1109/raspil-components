@@ -1,0 +1,92 @@
+@keyframes ldio-wp947k7izj-o {
+  0% {
+    opacity: 1;
+    transform: translate(0 0)
+  }
+
+  49.99% {
+    opacity: 1;
+    transform: translate(80px, 0)
+  }
+
+  50% {
+    opacity: 0;
+    transform: translate(80px, 0)
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(0, 0)
+  }
+}
+
+@keyframes ldio-wp947k7izj {
+  0% {
+    transform: translate(0, 0)
+  }
+
+  50% {
+    transform: translate(80px, 0)
+  }
+
+  100% {
+    transform: translate(0, 0)
+  }
+}
+
+.ldio-wp947k7izj div {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  top: 60px;
+  left: 20px;
+}
+
+.ldio-wp947k7izj div:nth-child(1) {
+  background: #dc004e;
+  animation: ldio-wp947k7izj 5.2631578947368425s linear infinite;
+  animation-delay: -2.6315789473684212s;
+}
+
+.ldio-wp947k7izj div:nth-child(2) {
+  background: #3f51b5;
+  animation: ldio-wp947k7izj 5.2631578947368425s linear infinite;
+  animation-delay: 0s;
+}
+
+.ldio-wp947k7izj div:nth-child(3) {
+  background: #dc004e;
+  animation: ldio-wp947k7izj-o 5.2631578947368425s linear infinite;
+  animation-delay: -2.6315789473684212s;
+}
+
+.loadingio-spinner-dual-ball-xwrn8s3f39s {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.ldio-wp947k7izj {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+  /* see note above */
+}
+
+.ldio-wp947k7izj div {
+  box-sizing: content-box;
+}
+
+.Spinner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}

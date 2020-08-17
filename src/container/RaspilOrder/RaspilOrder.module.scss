@@ -1,0 +1,144 @@
+.Header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    width: 70%;
+}
+
+.Fab {
+    padding: 1rem;
+}
+
+.RaspilMenu {
+    padding: 0 1rem;
+
+}
+
+.Link {
+    text-decoration: none;
+}
+
+.RaspilPositionsList {
+    width: 100%;
+    padding: 3rem 1rem;
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /*mozilla*/
+
+    &::-webkit-scrollbar {
+        /*chrome*/
+        display: none;
+    }
+}
+
+
+
+.renderOrder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.buttonGroupAndBreadcrumbs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.buttonGroup {
+    display: flex;
+    align-items: center;
+
+    &>button {
+        margin-right: 1rem;
+    }
+}
+
+.Order {
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.HeaderOrder {
+    display: flex;
+    flex: 2;
+
+    &>* {
+        padding-right: 1rem;
+    }
+}
+
+.Position {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+
+}
+
+.helperInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.plate,
+.packing{
+    display: flex;
+    padding: 0.2rem 0;
+    align-items: center;
+}
+
+.kromka {
+    display: flex;
+    align-items: center;
+}
+
+
+.number {
+    display: flex;
+    padding-bottom: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.total {
+    margin-right: 1rem;
+
+    & > span {
+        margin-right: 0.5rem;
+    }
+   
+}
+.decor {
+        color: grey
+    }
+.header {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.kromkaAndIconGroup {
+    display: flex;
+    padding: 0.2rem 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.iconGroup {
+    display: flex;
+}

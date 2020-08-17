@@ -1,0 +1,20 @@
+.formLabel {
+    margin-bottom: 1rem;
+}
+.radioGroup {
+    align-items: center;
+
+    &>label {
+        flex: 2 1 0;
+    }
+    &>label:last-child {
+        flex: 3 1 0;
+    }
+}
+
+.radioGroupText {
+    text-align: start;
+    margin-right: 1rem;
+    flex: 1 2 0;
+
+}

@@ -1,0 +1,12 @@
+.MenuItem {
+    &>a {
+        font-size: .9rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    &>a:link,
+    a:visited {
+        color: rgba(0, 0, 0, 0.54);
+    }
+}
