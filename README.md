@@ -3,7 +3,7 @@
 
 ## RaspilViewOrders
 ## RaspilOrder
-> Отдельной demo-версии нет, работают только в приложении
+> Отдельной demo-версии нет, работают только в приложении.
 > Расположение компонентов: src/container/
 
 ## RaspilViewOrders
