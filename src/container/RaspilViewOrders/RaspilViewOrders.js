@@ -37,8 +37,6 @@ export function RaspilViewOrders({ history, match }) {
     errorMessage,
   } = stateRedux;
 
-  
-
   const options = useSelector((state) => state.helper);
   const dispatch = useDispatch();
 
@@ -47,7 +45,6 @@ export function RaspilViewOrders({ history, match }) {
   }
 
   useEffect(() => {
-   
     dispatch(asyncActions.getOrdersFromServer(path));
   }, [dispatch, path]);
 
@@ -73,7 +70,6 @@ export function RaspilViewOrders({ history, match }) {
         const newB = b.id.match(regex);
         return +newA - +newB;
       });
-    
 
       const renderListOrder =
         sortArray.length > 0 ? (
